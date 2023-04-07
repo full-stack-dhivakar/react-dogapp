@@ -1,11 +1,6 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import { createRoot } from "react-dom";
 import Pet from './Pet'
-function App() {
-  const [count, setCount] = useState(0)
-
+const App = () => {
   return (
     <div>
       <h1>Adopt Me!</h1>
@@ -13,7 +8,11 @@ function App() {
       <Pet name="Pepper" animal="bird" breed="Cockatiel" />
       <Pet name="Doink" animal="cat" breed="Mix" />
     </div>
-  )
-}
+  );
+};
 
-export default App
+const container = document.getElementById("root");
+const root = createRoot(container);
+root.render(<App />);
+
+

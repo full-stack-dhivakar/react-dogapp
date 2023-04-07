@@ -1,4 +1,4 @@
-export default function Pet(props) {
+const Pet =(props)=>{
     return (
       <div>
         <h1>{props.name}</h1>
@@ -8,3 +8,4 @@ export default function Pet(props) {
     );
   };
   
+export default Pet;
