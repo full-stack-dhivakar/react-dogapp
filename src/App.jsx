@@ -9,6 +9,39 @@ const App = () => {
       <Pet name="Doink" animal="cat" breed="Mix" />
     </div>
   );
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 };
 
 const container = document.getElementById("root");
